@@ -233,7 +233,7 @@ const retrieveUsername = async (response) => {
     endPosition
   );
 
-  return { username, response };
+  return username;
 };
 
 export default {
